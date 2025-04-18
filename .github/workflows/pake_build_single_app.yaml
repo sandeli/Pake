@@ -17,7 +17,7 @@ on:
       url:
         description: 'App URL'
         required: true
-        default: 'https://twitter.com/'
+        default: 'https://stv.ttgg.us.kg/'
   workflow_call:
     inputs:
       name:
@@ -39,7 +39,7 @@ on:
         description: 'App URL'
         required: true
         type: string
-        default: 'https://twitter.com/'
+        default: 'https://stv.ttgg.us.kg/'
 
 jobs:
   build_single_app:
